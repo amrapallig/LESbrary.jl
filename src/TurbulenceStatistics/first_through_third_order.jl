@@ -209,6 +209,8 @@ function third_order_tracer_statistics(model; u_scratch = XFaceField(model.grid)
         # Keys
         wcc = Symbol(:w, tracer, tracer)
         cwu = Symbol(tracer, :wu)
+        cwv = Symbol(tracer, :wv)  #added AG
+        cww = Symbol(tracer, :ww)  #added AG
         cpx = Symbol(tracer, :px)
         cpy = Symbol(tracer, :py)
         cpz = Symbol(tracer, :pz)
