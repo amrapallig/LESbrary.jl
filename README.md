@@ -1,4 +1,4 @@
-Created this bracnch for work related to ADC by AG 
+Created this branch for work related to ADC by AG 
 
 # LESbrary.jl
 
